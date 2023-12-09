@@ -1,0 +1,4 @@
+deploy.env
+.env
+node_modules
+*.lock
