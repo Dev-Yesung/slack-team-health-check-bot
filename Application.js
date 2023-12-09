@@ -1,6 +1,6 @@
 const { App } = require("@slack/bolt");
 const schedule = require("node-schedule");
-const { howToDoMessage, messageAt13, messageAt20 } = require("./messages");
+const { howToDoMessage, messageAt13, messageAt20 } = require("./Messages");
 
 const slackApp = new App({
   token: process.env.SLACK_TOKEN,
