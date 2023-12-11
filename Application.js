@@ -15,8 +15,8 @@ const slackApp = new App({
 })();
 
 // 테스트용 메서드
-slackApp.client.chat.postMessage(messageAt13);
-slackApp.client.chat.postMessage(messageAt20);
+// slackApp.client.chat.postMessage(messageAt13);
+// slackApp.client.chat.postMessage(messageAt20);
 
 schedule.scheduleJob("0 0 13 * * *", async () => {
   try {
