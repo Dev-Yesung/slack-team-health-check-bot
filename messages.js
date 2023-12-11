@@ -37,7 +37,7 @@ const messageBlocksAt13 = [
     text: {
       type: "mrkdwn",
       text: `
-        \n>*☀️ 데일리 미션 알림 ☀️*\n>
+        \n>*☀️ 데일리 미션 알림 ☀️*\n>@here
       `,
     },
   },
@@ -75,7 +75,7 @@ const messageBlocksAt20 = [
     text: {
       type: "mrkdwn",
       text: `
-        \n>*🌙 리마인드 알림 🌙*\n>
+        \n>*🌙 리마인드 알림 🌙*\n>@here
       `,
     },
   },
